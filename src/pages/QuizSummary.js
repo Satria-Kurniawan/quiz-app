@@ -7,7 +7,7 @@ const QuizSummary = () => {
   const grade = data.score.correct * 20;
   let passingGrade = grade;
 
-  if (grade < 8) {
+  if (grade < 80) {
     passingGrade = (
       <div class="alert alert-danger" role="alert">
         <h3>Gk lulus lu goblok!</h3>
